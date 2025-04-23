@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <!-- Tag meta viewport penting agar tampilan web menyesuaikan ukuran layar device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil & Cerita Gunung</title>
+  <style>
+    /* Warna dasar dan reset */
+    body {
+      background-color: #ffe4e1;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Heading utama */
+    h1 {
+      color: black;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Paragraf rata tengah */
+    p {
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    /* Gambar responsif */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+    }
+
+    /* Link tampak sebagai tombol kecil */
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Micro-layout: section container dengan padding */
+    .section {
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      background-color: #fff0f5;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    hr {
+      border: 0;
+      height: 2px;
+      background: #ccc;
+      margin: 20px 0;
+    }
+
+    /* Responsive grid layout untuk kontak */
+    .contact-info {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    @media (min-width: 600px) {
+      /* Layout akan berubah jika layar > 600px */
+      .contact-info {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h1>GUNUNG MERBABU</h1>
+    <hr>
+    <!-- Gambar menggunakan atribut responsive (diatur lewat CSS) -->
+    <img src="merbabu2.jpg" alt="Gunung Merbabu via Suwanting">
+    <p>
+      Gunung Merbabu merupakan gunung yang memiliki ketinggian 3142 MDPL yang terletak di Kabupaten Magelang, Jawa Tengah.
+      Jalur Gunung Merbabu yang paling terkenal yaitu jalur via Suwanting. Jalur ini kerap disebut 
+      <strong>"Suwanting bikin Sinting"</strong> karena jalurnya yang panjang dan menantang, terutama saat hujan. 
+      Meski begitu, banyak pendaki merasa tertantang untuk menaklukkan jalur ini.
+    </p>
+  </div>
+
+  <div class="section">
+    <h1>Penulis</h1>
+    <hr>
+    <img src="APHRODYTA.jpeg.jpg" alt="Foto penulis Aphrodyta">
+    <p>
+      <strong>APHRODYTA SALSA</strong><br>
+      225410056 || INFORMATIKA - 2<br>
+      Aphrodyta Salsa adalah salah satu Mahasiswi UTDI (Universitas Teknologi Digital Indonesia) yang lahir di Yogyakarta, 30 April 2003.
+    </p>
+
+    <!-- Micro-layout untuk kontak -->
+    <div class="contact-info">
+      <div>
+        <strong>WhatsApp:</strong><br>
+        <a href="https://wa.me/qr/3UOASZJUWNTCJ1">Get in touch with Aphrodyta</a>
+      </div>
+      <div>
+        <strong>Instagram:</strong><br>
+        <a href="https://instagram.com/aphrodytasls_?igshid=ZDdkNTZiNTM=">Visit Instagram</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
